@@ -6,78 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e6e30f6-7d6e-455c-8e29-659ffb2b0e96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebRoot/admin/adminList2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebRoot/admin/adminPasswordUpd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebRoot/admin/categoryUpd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/admin/web/CategoryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myAdminStore.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/AdminDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/CategoryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/CategoryDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/GoodsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/domain/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/domain/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/domain/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/domain/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/domain/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/domain/Goods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/domain/pageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/domain/pageBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/GoodsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/utils/JdbcUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/utils/JdbcUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/AdminServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/BaseServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/GoodsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/GoodsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/admin/account.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/admin/admin_index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/admin/admin_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/admin/admin_regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/admin/category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/category.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/goodsList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myStoreAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStoreAdmin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myStoreAdmin2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/dao/AdminDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/dao/CategoryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/dao/GoodsDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/domain/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/domain/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/domain/Goods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/domain/pageBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/service/GoodsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/test/CategoryDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/test/GoodsDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/test/JdbcUtilTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/utils/JdbcUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/web/AdminServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/web/BaseServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/web/GoodsServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/dao/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/dao/CategoryDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/dao/GoodsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/domain/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/domain/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/domain/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/domain/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/domain/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/domain/pageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/domain/PageBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/utils/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/utils/JdbcUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/web/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/web/AdminServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/web/BaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/admin/web/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/web/GoodsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.properties" afterDir="false" />
-    </list>
+    <list default="true" id="9e6e30f6-7d6e-455c-8e29-659ffb2b0e96" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/WebRoot/WEB-INF/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,11 +87,18 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="hitanquan" />
         <option value="hitanquan &lt;2685303161@qq.com&gt;" />
       </list>
     </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -247,13 +183,7 @@
             <path>
               <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="myStoreAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStoreAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +196,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582699822336" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582700917108" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -444,7 +374,7 @@
       <workItem from="1582340874729" duration="11304000" />
       <workItem from="1582435356244" duration="24390000" />
       <workItem from="1582611746205" duration="6085000" />
-      <workItem from="1582679141617" duration="18362000" />
+      <workItem from="1582679141617" duration="19443000" />
     </task>
     <task id="LOCAL-00001" summary="提升了junit测试包版本">
       <created>1566290869770</created>
@@ -453,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566290869770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="功能完善：用了几天时间完善了分类信息管理和用户管理功能">
+      <created>1582700113888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582700113889</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -474,7 +411,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88513000" />
+    <option name="totallyTimeSpent" value="89594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,7 +425,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="738" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990758" visible="true" weight="0.2118003" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990758" visible="true" weight="0.32223904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -508,7 +445,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" weight="0.4304" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49848714" weight="0.5952" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49848714" visible="true" weight="0.2704" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.5763994" weight="0.328" />
       <window_info anchor="bottom" x="668" y="318" width="560" height="249" id="Event Log" order="14" sideWeight="0.34005377" side_tool="true" weight="0.33846155" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -601,7 +538,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提升了junit测试包版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="提升了junit测试包版本" />
+    <MESSAGE value="功能完善：用了几天时间完善了分类信息管理和用户管理功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能完善：用了几天时间完善了分类信息管理和用户管理功能" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
