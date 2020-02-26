@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="myStoreAdmin:WebRoot exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9e6e30f6-7d6e-455c-8e29-659ffb2b0e96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/admin/adminList2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/admin/adminPasswordUpd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/admin/categoryUpd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/admin/web/CategoryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myAdminStore.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/AdminDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/CategoryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/CategoryDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/dao/GoodsDao.class" afterDir="false" />
@@ -12,13 +27,56 @@
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/AdminService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/CategoryService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/service/GoodsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/test/CategoryDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/test/CategoryDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/test/GoodsDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/test/GoodsDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/utils/JdbcUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/utils/JdbcUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/AdminServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/BaseServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/GoodsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/admin/web/GoodsServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/admin/account.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/admin/admin_index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/admin/admin_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/admin/admin_regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/admin/category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/category.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/goodsList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myStoreAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myStoreAdmin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myStoreAdmin2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/dao/AdminDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/dao/CategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/dao/GoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/domain/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/domain/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/domain/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/domain/pageBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/service/GoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/test/CategoryDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/test/GoodsDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/test/JdbcUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/utils/JdbcUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/web/AdminServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/web/BaseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/com/admin/web/GoodsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myStoreAdmin/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/dao/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/dao/CategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/dao/GoodsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/domain/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/domain/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/domain/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/domain/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/domain/pageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/domain/PageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/utils/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/utils/JdbcUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/web/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/web/AdminServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/web/BaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/admin/web/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/admin/web/GoodsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/WebRoot/WEB-INF/classes/" />
@@ -31,80 +89,71 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="524">
+                <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/admin/test/JdbcUtilTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/admin/test/GoodsDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/admin/test/CategoryDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/admin/web/BaseServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.project">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/admin/domain/Admin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>T_admin</find>
+      <find>close</find>
+      <find>service</find>
+      <find>admin</find>
+      <find>mainFrame</find>
+      <find>#regist</find>
+      <find>regist</find>
+      <find>page</find>
+      <find>page_div</find>
+      <find>username</find>
+      <find>password</find>
+      <find>login</find>
+      <find>addGoods</find>
+      <find>num</find>
+      <find>modal_view</find>
+      <find>container</find>
+      <find>add_form</find>
+      <find>welcome</find>
+      <find>update</find>
+      <find>updPasswordUI</find>
+      <find>upd_form</find>
+      <find>adminService</find>
+      <find>updCategoryUI</find>
+      <find>updCategory</find>
+      <find>delCategory</find>
+      <find>add</find>
+      <find>form</find>
+      <find>background</find>
+      <find>pageBean</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>PageBean</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -115,6 +164,52 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/db.properties" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/admin_regist.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/admin_login.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/main.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/adminList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/top.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/account.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/adminPasswordUpd.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/admin.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/left.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/categoryUpd.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/category.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/admin/css/style.css" />
+        <option value="$PROJECT_DIR$/src/com/admin/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/domain/pageBean.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/web/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/dao/CategoryDao.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/utils/JdbcUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/domain/Category.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/domain/Goods.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/domain/Admin.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/domain/PageBean.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/web/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/web/CategoryServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/admin/web/GoodsServlet.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -124,10 +219,18 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="524" />
-    <option name="width" value="781" />
-    <option name="height" value="775" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="682" />
+    <option name="height" value="722" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -150,99 +253,38 @@
               <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="myStoreAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStoreAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStoreAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStoreAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStoreAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStoreAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="JdbcUtilTest" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStoreAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStoreAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="BaseServlet" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myStoreAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="myStoreAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="junit-4.8.2.jar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566290883909" />
-    <property name="last_opened_file_path" value="E:/resources/liaoke/junit/junit-4.8.2.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582699822336" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.3275862" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.23161034" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.admin.service" />
+      <recent name="com.admin.web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myCode\myStoreAdmin\WebRoot\admin" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -256,9 +298,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CategoryDaoTest.testQuery">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.52">
     <configuration name="CategoryDaoTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myStoreAdmin2" />
+      <module name="myStoreAdmin" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.admin.test.*" />
@@ -274,7 +316,7 @@
       </method>
     </configuration>
     <configuration name="JdbcUtilTest.getConn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myStoreAdmin2" />
+      <module name="myStoreAdmin" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.admin.test.*" />
@@ -289,12 +331,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration name="Tomcat 8.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="myAdminStore">
+        <artifact name="myStoreAdmin:WebRoot exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/myAdminStore" />
+            <option name="CONTEXT_PATH" value="/myStoreAdmin" />
           </settings>
         </artifact>
       </deployment>
@@ -302,7 +346,7 @@
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_myStoreAdmin_4" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
@@ -357,19 +401,19 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="myAdminStore" />
+          <artifact name="myStoreAdmin:WebRoot exploded" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.JdbcUtilTest.getConn" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.41" />
       <item itemvalue="JUnit.CategoryDaoTest.testQuery" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.52" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CategoryDaoTest.testQuery" />
         <item itemvalue="JUnit.JdbcUtilTest.getConn" />
+        <item itemvalue="JUnit.CategoryDaoTest.testQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -384,6 +428,23 @@
       <option name="presentableId" value="Default" />
       <updated>1566289806188</updated>
       <workItem from="1566289827429" duration="1052000" />
+      <workItem from="1575944392228" duration="1458000" />
+      <workItem from="1581131617454" duration="997000" />
+      <workItem from="1581388571332" duration="1419000" />
+      <workItem from="1581401328731" duration="5707000" />
+      <workItem from="1581476088416" duration="16000" />
+      <workItem from="1581476735662" duration="123000" />
+      <workItem from="1581489119053" duration="7588000" />
+      <workItem from="1581497497140" duration="1864000" />
+      <workItem from="1581651360947" duration="119000" />
+      <workItem from="1581838346830" duration="5389000" />
+      <workItem from="1581930605936" duration="1270000" />
+      <workItem from="1582084376823" duration="18000" />
+      <workItem from="1582091828858" duration="1352000" />
+      <workItem from="1582340874729" duration="11304000" />
+      <workItem from="1582435356244" duration="24390000" />
+      <workItem from="1582611746205" duration="6085000" />
+      <workItem from="1582679141617" duration="18362000" />
     </task>
     <task id="LOCAL-00001" summary="提升了junit测试包版本">
       <created>1566290869770</created>
@@ -405,79 +466,493 @@
     <history-entry file="CategoryDaoTest_testQuery - 2019.08.20 at 16h 45m 49s.xml">
       <configuration name="CategoryDaoTest.testQuery" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JdbcUtilTest_getConn - 2020.02.11 at 19h 21m 56s.xml">
+      <configuration name="JdbcUtilTest.getConn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcUtilTest_getConn - 2020.02.11 at 19h 28m 29s.xml">
+      <configuration name="JdbcUtilTest.getConn" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1052000" />
+    <option name="totallyTimeSpent" value="88513000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="738" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990758" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.43558282" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.5007553" side_tool="true" visible="true" weight="0.39263803" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3297546" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.5009242" side_tool="true" weight="0.19062027" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924472" visible="true" weight="0.39263803" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.0528" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65994626" weight="0.2384" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.790469" weight="0.384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3296" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.5718608" weight="0.56" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.3296" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" weight="0.4304" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49848714" weight="0.5952" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.5763994" weight="0.328" />
+      <window_info anchor="bottom" x="668" y="318" width="560" height="249" id="Event Log" order="14" sideWeight="0.34005377" side_tool="true" weight="0.33846155" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32917964" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990758" visible="true" weight="0.19364598" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.5009242" side_tool="true" weight="0.19062027" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.0528" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65994626" weight="0.1712" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.790469" weight="0.384" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3296" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.5718608" weight="0.56" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.3296" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" weight="0.4304" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49848714" weight="0.5952" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.5763994" weight="0.328" />
+      <window_info anchor="bottom" x="668" y="318" width="560" height="249" id="Event Log" order="14" sideWeight="0.34005377" side_tool="true" weight="0.33846155" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32917964" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提升了junit测试包版本" />
     <option name="LAST_COMMIT_MESSAGE" value="提升了junit测试包版本" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/regist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/js/paging.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="107" column="44" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18719">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/goodsAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+          <folding>
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/adminList2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="72" column="8" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="119" column="17" lean-forward="true" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/css/404.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/css/Hui-iconfont/1.0.8/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7142" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/goodsUpd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1265">
+          <caret line="19" column="94" lean-forward="true" selection-start-line="19" selection-start-column="94" selection-end-line="19" selection-end-column="94" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/adminPasswordUpd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2162">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/goodsList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/categoryUpd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1205#2212#0#JSP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+          <folding>
+            <element signature="e#1983#2251#0#JSP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/images/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/images/username-field.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/images/username-field-hover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/images/checkbox-off.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/images/go-hover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/images/form-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/css/pageStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1748">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/css/H-ui.admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="119" column="145" selection-start-line="119" selection-start-column="135" selection-end-line="119" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/css/amazeui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret column="254492" selection-start-column="254482" selection-end-column="254492" />
+          <folding>
+            <element signature="e#41987#42310#1" expanded="true" />
+            <element signature="e#171285#172400#2" expanded="true" />
+            <element signature="e#173179#175302#2" expanded="true" />
+            <element signature="e#175449#177656#2" expanded="true" />
+            <element signature="e#177808#178199#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-566">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/utils/JdbcUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/domain/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/domain/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-994">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/admin/domain/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-258">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
+    <entry file="file://$PROJECT_DIR$/src/com/admin/domain/PageBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="-258">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/admin/web/BaseServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/admin/dao/GoodsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="386">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/dao/CategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -486,26 +961,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/admin/test/JdbcUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="230">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/admin/test/GoodsDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="-391">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/admin/test/CategoryDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="92">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/web/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/web/CategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1817">
+          <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/web/GoodsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="176" column="27" lean-forward="true" selection-start-line="176" selection-start-column="27" selection-end-line="176" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/admin/web/AdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2272">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/common.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/admin/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/mystore.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="524">
+            <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -526,11 +1065,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>myAdminStore</last-edited>
+          <last-edited>myStoreAdmin:WebRoot exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3275862" />
                 <option value="0.5" />
               </list>
             </option>
@@ -539,11 +1078,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>WebRoot (myStoreAdmin)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3275862" />
               </list>
             </option>
           </splitter-proportions>
@@ -574,11 +1113,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>myStoreAdmin2</last-edited>
+          <last-edited>myStoreAdmin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19624217" />
               </list>
             </option>
           </splitter-proportions>
@@ -598,10 +1137,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>jstl-1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3275862" />
               </list>
             </option>
           </splitter-proportions>

@@ -4,12 +4,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
+    <title>商品主页</title>
     <link rel="stylesheet" href="${ctx}/admin/css/style.css" type="text/css" />
     <link rel="stylesheet" href="${ctx}/admin/css/amazeui.min.css" />
     <link rel="stylesheet" href="${ctx}/admin/css/pageStyle.css">
-
 </head>
 <body style="background:white;">
 
@@ -28,10 +26,9 @@
                 </div>
             </div>
         </div>
-        
-        <div class="am-u-sm-12 am-u-md-3">
 
-        </div>
+        <div class="am-u-sm-12 am-u-md-3"></div>
+
         <div class="am-u-sm-12 am-u-md-3">
             <div class="am-input-group am-input-group-sm">
                 <input type="text" class="am-form-field" id="input_search">
@@ -56,7 +53,6 @@
 	<c:if test="${empty pageBean.goodsList}">
 			没有商品
 	</c:if>
-	
 	
     <c:forEach  items="${pageBean.goodsList}" var="goods" varStatus="status">
     	<ul class="list_goods_ul">

@@ -23,7 +23,4 @@ scrolling：是否有滚动条
         <frame src="${ctx}/admin/welcome.jsp" name="mainFrame" >
     </frameset>
 </frameset>
-
-
-
 </html>

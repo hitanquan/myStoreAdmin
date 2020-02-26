@@ -1,97 +1,82 @@
 package com.admin.domain;
 
+/**
+ * 商品实体类
+ *
+ * @author 谭少
+ */
 public class Goods {
-	
-	private Integer id;
-	private String name;
-	private Double price;
-	private String image;
-	private String gdesc;
-	private Integer is_hot;
-	private Integer cid;
 
-	public Integer getId() {
-		return id;
-	}
+    private Integer id;
+    private String name;
+    private Double price;
+    private String image;
+    private String gdesc;
+    private Integer is_hot;
+    private Integer cid;
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public Goods() {
+    }
 
-	public String getName() {
-		return name;
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public Double getPrice() {
-		return price;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setPrice(Double price) {
-		this.price = price;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getImage() {
-		return image;
-	}
+    public Double getPrice() {
+        return price;
+    }
 
-	public void setImage(String image) {
-		this.image = image;
-	}
+    public void setPrice(Double price) {
+        this.price = price;
+    }
 
-	public String getGdesc() {
-		return gdesc;
-	}
+    public String getImage() {
+        return image;
+    }
 
-	public void setGdesc(String gdesc) {
-		this.gdesc = gdesc;
-	}
+    public void setImage(String image) {
+        this.image = image;
+    }
 
-	public Integer getIs_hot() {
-		return is_hot;
-	}
+    public String getGdesc() {
+        return gdesc;
+    }
 
-	public void setIs_hot(Integer is_hot) {
-		this.is_hot = is_hot;
-	}
+    public void setGdesc(String gdesc) {
+        this.gdesc = gdesc;
+    }
 
-	public Integer getCid() {
-		return cid;
-	}
+    public Integer getIs_hot() {
+        return is_hot;
+    }
 
-	public void setCid(Integer cid) {
-		this.cid = cid;
-	}
+    public void setIs_hot(Integer is_hot) {
+        this.is_hot = is_hot;
+    }
 
-	public Goods(String name, Double price, String image) {
-		this.name = name;
-		this.price = price;
-		this.image = image;
-	}
-	
-	
-	@Override
-	public String toString() {
-		return "Goods [id=" + id + ", name=" + name + ", price=" + price + ", image=" + image + ", gdesc=" + gdesc
-				+ ", is_hot=" + is_hot + ", cid=" + cid + "]";
-	}
+    public Integer getCid() {
+        return cid;
+    }
 
+    public void setCid(Integer cid) {
+        this.cid = cid;
+    }
 
-
-	public Goods(Integer id, String name, Double price, String image) {
-		this.id = id;
-		this.name = name;
-		this.price = price;
-		this.image = image;
-	}
-
-
-
-	public Goods() {
-	}
-
-
+    @Override
+    public String toString() {
+        return "Goods [id=" + id + ", name=" + name + ", price=" + price + ", image=" + image + ", gdesc=" + gdesc
+                + ", is_hot=" + is_hot + ", cid=" + cid + "]";
+    }
 }

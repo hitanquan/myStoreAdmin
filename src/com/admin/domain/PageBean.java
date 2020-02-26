@@ -4,12 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 商品信息分页显示实体类
- * @author tq
+ * 分页实体类
+ * @author 谭少
  */
+public class PageBean {
 
-public class pageBean {
-	
+	//保存当前页分类信息的集合
+	private List<Category> categoryList = new ArrayList<Category>();
+	//保存当前页管理员信息的集合
+	private List<Admin> adminList = new ArrayList<Admin>();
 	//保存当前页商品信息的集合
 	private List<Goods> goodsList = new ArrayList<Goods>();
 	//保存当前页编号的变量
@@ -18,6 +21,22 @@ public class pageBean {
 	private Integer totalPage;
 	//保存总记录数的变量
 	private Integer totalCount;
+
+	public List<Admin> getAdminList() {
+		return adminList;
+	}
+
+	public List<Category> getCategoryList() {
+		return categoryList;
+	}
+
+	public void setCategoryList(List<Category> categoryList) {
+		this.categoryList = categoryList;
+	}
+
+	public void setAdminList(List<Admin> adminList) {
+		this.adminList = adminList;
+	}
 
 	public List<Goods> getGoodsList() {
 		return goodsList;
@@ -53,7 +72,13 @@ public class pageBean {
 
 	@Override
 	public String toString() {
-		return "pageBean [goodsList=" + goodsList + ", currentPage=" + currentPage + ", totalPage=" + totalPage
-				+ ", totalCount=" + totalCount + "]";
+		return "PageBean{" +
+				"categoryList=" + categoryList +
+				", adminList=" + adminList +
+				", goodsList=" + goodsList +
+				", currentPage=" + currentPage +
+				", totalPage=" + totalPage +
+				", totalCount=" + totalCount +
+				'}';
 	}
 }

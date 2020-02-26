@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ include file="/admin/common.jsp" %>
 <!DOCTYPE HTML>
 <html dir="ltr" lang="en-US">
@@ -25,7 +25,6 @@
 
 	<body>
 		<div id="container">
-			
 			<form action="${ctx}/AdminServlet?action=login" method="post">
 				<div class="login">码蚁商城后台管理系统
 				 	<span style="color:red;font-size: 14px">${errorMessage}</span>
@@ -40,21 +39,19 @@
 				</div>
 				<!-- <input type="checkbox" name="remember-me" id="remember-me" />
 				<label for="remember-me">记住管理员名称</label> -->
-				
 				<div  class="zhuce-button">
 					<input type="button"  class="zhuce-button" id="regist" value="免费注册">
 				</div>      
-				
 				<div class="forgot-usr-pwd"></div>
 				<input type="submit" name="submit" value="登录" onclick="checkForm()"/>
 			</form>
 		</div>
-		
-	<script src="${ctx}/admin/js/jquery.min.js"></script>
-	
+
+        <script src="${ctx}/admin/js/jquery.min.js"/>
 	<script>
-   		 $("#regist").click(function () {
-        $(window).attr('location','${ctx}/admin/admin_regist.jsp');
+        $("#regist").click(function () {
+            alert("注册按钮被触发了");
+            $(window).attr('location', '${ctx}/admin/regist.jsp');
     	});
 	</script>
 </body>

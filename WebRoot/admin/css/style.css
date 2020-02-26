@@ -91,8 +91,8 @@ body {
 /* ------- Login Form ------- */
 
 form, .welcome {
-	background: url(../images/form-bg.png) top left no-repeat;
-	width: 524px;
+    background: url(../images/form-bg.png) top left no-repeat;
+    width: 524px;
 	height: 262px;
 	padding-top: 1px;
 }

@@ -48,7 +48,7 @@
 
 <div class="admin_top">
     <div class="top_left">
-                      码蚁商城
+        码蚁商城后台管理系统
     </div>
     
     

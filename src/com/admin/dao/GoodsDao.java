@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * 商品数据操纵类
- * @author tq
+ * @author 谭少
  */
 public class GoodsDao {
 	
@@ -35,7 +35,6 @@ public class GoodsDao {
 	//修改商品
 	public static int updataGoods(Goods goods) throws SQLException{
 		sql = "update t_goods set name = ?, price = ?, image = ?,gdesc = ?,is_hot = ?,cid = ? where id = ?";
-		//System.out.println(sql);
 		return qr.update(sql,goods.getName(),goods.getPrice(),goods.getImage(),
 		goods.getGdesc(),goods.getIs_hot(),goods.getCid(),goods.getId());
 	}
@@ -43,7 +42,6 @@ public class GoodsDao {
 	//删除商品
 	public static int deleteGoods(int id) throws SQLException{
 		sql = "delete from t_goods where id = ?";
-		System.out.println(sql);
 		return qr.update(sql,id);
 	}
 
@@ -56,15 +54,12 @@ public class GoodsDao {
 	//查询商品总记录数
 	public static long queryCount() throws SQLException {
 		sql = "select count(*) from t_goods";
-		long count = (long) qr.query(sql, new ScalarHandler());
-		return count;
+        return (long) qr.query( sql, new ScalarHandler() );
 	}
 	
 	//查询分页数据
 	public static List<Goods> queryPageData(Integer index, Integer pageCount) throws SQLException {
 		sql = "select * from t_goods limit ?,?";
-		List<Goods> pageGoods = qr.query(sql, new BeanListHandler<Goods>(Goods.class),index,pageCount);
-		return pageGoods;
+        return qr.query( sql, new BeanListHandler<Goods>( Goods.class ), index, pageCount );
 	}
-
 }

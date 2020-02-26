@@ -84,9 +84,9 @@
 <body style="background:#283643;">
 
 <ul>
-    <li><a href="category.jsp" target="mainFrame"><i></i>分类管理</a></li>
+    <li><a href="${ctx}/CategoryServlet?action=getPageData&currentPage=1" target="mainFrame"><i></i>分类管理</a></li>
     <li><a href="${ctx}/GoodsServlet?action=getPageData&currentPage=1" target="mainFrame"><i></i>商品管理</a></li>
-    <li></i><a href="account.jsp" target="mainFrame"><i></i>用户管理</a></li>
+    <li></i><a href="${ctx}/AdminServlet?action=getPageData&currentPage=1" target="mainFrame"><i></i>用户管理</a></li>
     <li></i><a href="${ctx}/AdminServlet?action=exitLogin" target="_top"><i></i>退出登录</a></li>
 </ul>
 
