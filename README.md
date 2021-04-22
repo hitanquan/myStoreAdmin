@@ -47,29 +47,27 @@
 
 - 注册：
 
-![registe](resources/doc_img/registe.jpg)
+![registe](src/resources/doc_img/registe.jpg)
 
 - 登录：
 
-![login](resources/doc_img/login.jpg)
+![login](src/resources/doc_img/login.jpg)
 
 - 主页:
 
-![main](resources/doc_img/main.jpg)
+![main](src/resources/doc_img/main.jpg)
 
 - 分类管理:
 
-![category](resources/doc_img/category.jpg)
+![category](src/resources/doc_img/category.jpg)
 
 - 商品管理：
 
-![goods](resources/doc_img/goods.jpg)
+![goods](src/resources/doc_img/goods.jpg)
 
 -管理员列表：
 
-![admin](resources/doc_img/admin.jpg)
-        
-
+![admin](src/resources/doc_img/admin.jpg)
 
 注：由于该项目所用技术比较传统，有些过时，后期会抽时间将项目采用SSM框架进行项目重构.
                                       

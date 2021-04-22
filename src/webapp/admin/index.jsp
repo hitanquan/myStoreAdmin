@@ -18,9 +18,9 @@ scrolling：是否有滚动条
   -->
 <frameset rows="70,*" frameborder=0 border="0" framespacing="0">
     <frame src="${ctx}/admin/top.jsp" name="topFrame" scrolling="NO" noresize>
-    <frameset cols="250,*" frameborder="0" border="0"  framespacing="10">
-        <frame src="${ctx}/admin/left.jsp" name="leftFrame"  scrolling="NO">
-        <frame src="${ctx}/admin/welcome.jsp" name="mainFrame" >
+    <frameset cols="250,*" frameborder="0" border="0" framespacing="10">
+        <frame src="${ctx}/admin/left.jsp" name="leftFrame" scrolling="NO">
+        <frame src="${ctx}/admin/welcome.jsp" name="mainFrame">
     </frameset>
 </frameset>
 </html>
